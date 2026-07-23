@@ -258,13 +258,6 @@ Contributions are welcome! Please follow these guidelines:
    ```
 7. **Submit a Pull Request**: Describe your changes in detail
 
-### Code Style
-
-- Follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide
-- Use type hints for all functions
-- Write meaningful commit messages
-- Add docstrings to functions and classes
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
@@ -272,14 +265,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Support
 
 For issues, questions, or suggestions, please [open an issue](https://github.com/yashraj014/fastapi-blog/issues) on GitHub.
-
-## Changelog
-
-### Version 1.0.0
-- Initial release
-- Basic CRUD operations for blog posts
-- Interactive API documentation
-
----
 
 **Made with ❤️ by [yashraj014](https://github.com/yashraj014)**
