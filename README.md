@@ -2,7 +2,7 @@
 
 A modern, fast, and scalable blogging application built with [FastAPI](https://fastapi.tiangolo.com/), a high-performance Python web framework for building APIs.
 
-## 🚀 Features
+## Features
 
 - **Fast Performance**: Built on FastAPI with async support for handling concurrent requests
 - **Modern API**: RESTful API design with automatic interactive API documentation
@@ -10,7 +10,7 @@ A modern, fast, and scalable blogging application built with [FastAPI](https://f
 - **Scalable**: Production-ready architecture suitable for deployment
 - **Type Safety**: Full Python type hints for better code quality and IDE support
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -22,13 +22,13 @@ A modern, fast, and scalable blogging application built with [FastAPI](https://f
 - [Contributing](#contributing)
 - [License](#license)
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8 or higher
 - pip (Python package manager)
 - Virtual environment (recommended)
 
-## 💻 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -75,7 +75,7 @@ API_TITLE=FastAPI Blog
 API_VERSION=1.0.0
 ```
 
-## 🎯 Usage
+## Usage
 
 ### Running the Application
 
@@ -135,7 +135,7 @@ curl -X PUT "http://127.0.0.1:8000/api/posts/1" \
 curl -X DELETE "http://127.0.0.1:8000/api/posts/1"
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 fastapi-blog/
@@ -156,7 +156,7 @@ fastapi-blog/
     └── test_posts.py    # API tests
 ```
 
-## 📚 API Documentation
+## API Documentation
 
 ### POST /api/posts/
 Create a new blog post.
@@ -204,7 +204,7 @@ Delete a blog post.
 
 **Response:** `204 No Content`
 
-## 🔧 Development
+## Development
 
 ### Install Development Dependencies
 
@@ -237,7 +237,7 @@ flake8 .
 pylint app/
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -265,15 +265,15 @@ Contributions are welcome! Please follow these guidelines:
 - Write meaningful commit messages
 - Add docstrings to functions and classes
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🤖 Support
+## Support
 
 For issues, questions, or suggestions, please [open an issue](https://github.com/yashraj014/fastapi-blog/issues) on GitHub.
 
-## 📝 Changelog
+## Changelog
 
 ### Version 1.0.0
 - Initial release
